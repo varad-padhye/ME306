@@ -1,0 +1,17 @@
+Parameter,Value,Unit,Source/Note
+Ambient temperature,35,deg C,Problem statement
+Ambient pressure,1.013,bar,Problem statement
+Pressure ratio,15,-,Problem statement
+Turbine isentropic efficiency,0.9,-,Problem statement
+Compressor isentropic efficiency,0.87,-,Problem statement
+Turbine inlet temperature,1673,K,"1400 C, problem statement"
+Combustor pressure loss,4,%,Problem statement
+Inlet pressure loss,1,%,Problem statement
+Exhaust pressure loss,1,%,Problem statement
+Combustor efficiency,0.99,-,Problem statement
+Hot-gas specific heat,1.15,kJ/kg K,Natural-gas baseline
+Hot-gas gamma,1.333,-,Natural-gas baseline
+Fuel-air ratio,0.026,kg fuel/kg air,Week 2 reference
+Turbine exhaust temperature,944,K,Week 2 reference
+Baseline fuel,Natural gas (methane),,Problem statement
+Hydrogen share,0,%,Natural-gas baseline

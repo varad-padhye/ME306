@@ -1,0 +1,11 @@
+Required input,Why required,Status
+Maximum firing temperature,TIT feasibility constraint,Not specified in supplied documents
+Maximum blade-metal temperature,Blade material constraint,Not specified in supplied documents
+Cooling effectiveness / cooling-flow model,Cooling feasibility and flow calculation,Not specified in supplied documents
+TIT sweep bounds,Week 2 and Week 3 sweeps,Not specified in supplied documents
+Reheat outlet temperature,Reheat energy balance,Not specified in supplied documents
+Intermediate turbine pressure,Two-stage expansion calculation,Not specified in supplied documents
+cp versus hydrogen share,Hydrogen-blend turbine calculations,To be supplied by R2
+gamma versus hydrogen share,Isentropic expansion calculation,Not specified; agree with team/R2
+Chemical exergy of fuel and products,Reheat combustor exergy balance,Not specified in supplied documents
+Separate hot-section and cooling costs,Detailed component costing,Not specified in supplied documents

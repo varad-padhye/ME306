@@ -1,0 +1,4 @@
+Quantity,Formula/Calculation,Result,Unit
+Actual temperature drop,1673 - 944,729,K
+Turbine work per kg gas,1.15 x 729,838.35,kJ/kg gas
+Turbine work per kg air,(1 + 0.026) x 838.35,860.1491,kJ/kg air

@@ -1,0 +1,4 @@
+Item,Basis,Minimum,Maximum,Unit
+Baseline plant capital cost,4 crore/MW x 100 MW,400,400,INR crore
+Reheat hardware premium,10-15% of base plant cost,40,60,INR crore
+Plant capital cost with reheat premium,Base plus premium,440,460,INR crore

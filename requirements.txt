@@ -1,0 +1,7 @@
+# R5 integration pipeline (required)
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+# R3 turbine/reheat package only (optional)
+scipy>=1.10
+cantera>=3.0

@@ -1,0 +1,10 @@
+\begin{tabular}{@{}lrrrrrrp{2.9cm}@{}}\toprule Config. & PR & TIT & $\eta$ (\%) & LCOE & CO$_2$ & NOx & Verdict\\\midrule
+Simple & 16 & 1400 & 31.7 & 13.85 & 0.562 & 26 & lowest efficiency; 26\% of fuel exergy lost in stack\\
+Reheat & 16 & 1300 & 26.5 & 16.47 & 0.672 & 15 & two cooled turbines (30\% coolant); worst efficiency\\
+Regen & 10 & 1400 & 36.2 & 12.42 & 0.492 & 33 & regeneration limited by hot compressor delivery and 15\% coolant\\
+Regen+Reheat & 12 & 1300 & 31.8 & 14.02 & 0.560 & 21 & combustor inlet near 1050 K autoignition limit; cooling penalty\\
+IC & 30 & 1400 & 35.0 & 12.72 & 0.508 & 22 & no exhaust-heat recovery; stack loss stays high\\
+IC+Reheat & 30 & 1400 & 31.3 & 14.22 & 0.568 & 13 & lowest NOx, but cooled LP turbine and no heat recovery: $\eta$ 9 points below selected\\
+IC+Regen+Reheat & 24 & 1350 & 38.2 & 12.04 & 0.466 & 19 & runner-up: lower NOx, but worse $\eta$, LCOE, CO$_2$, exergy; reheat H$_2$ autoignition risk\\
+IC+Regen & 16 & 1400 & 40.5 & 11.34 & 0.439 & 30 & \textbf{selected} (best on 4 of 5 objectives)\\
+\bottomrule\end{tabular}

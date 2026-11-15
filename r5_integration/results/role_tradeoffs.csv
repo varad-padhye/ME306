@@ -1,0 +1,11 @@
+role,metric,unit,best_value,best_design,selected
+R1 Compressor & IC,Compressor + intercooler exergy destruction,% fuel exergy,1.2113919589546431,"Reheat, PR 8.0, TIT 1450 C, x 0.00",6.225145246621432
+R2 Combustor & blend,NOx index,ppm,12.363763667003392,"IC+Reheat, PR 11.6, TIT 1400 C, x 0.00",29.562151494473895
+R2 Combustor & blend,Combustion exergy destruction (all combustors),% fuel exergy,29.18000346235238,"Regen+Reheat, PR 19.7, TIT 1466 C, x 0.42, eps 0.71",34.16129793483341
+R3 Turbine & reheat,Specific net work (machine size),kJ/kg air,579.8538179471495,"IC+Reheat, PR 30.0, TIT 1497 C, x 0.47",427.2936903688267
+R3 Turbine & reheat,Turbine exergy destruction incl. cooling,% fuel exergy,3.110156354040598,"IC, PR 8.0, TIT 1300 C, x 0.00",5.523854393455185
+R4 Regenerator,Stack exergy loss,% fuel exergy,11.580862499213506,"IC+Regen, PR 22.0, TIT 1300 C, x 0.00, eps 0.85",12.15684833916358
+R5 Integration,Net efficiency,-,0.4097308198031927,"IC+Regen, PR 14.6, TIT 1447 C, x 0.47, eps 0.85",0.40517003558250864
+R5 Integration,Total exergy destruction,MJ/kWh,4.201540880954315,"IC+Regen, PR 13.2, TIT 1444 C, x 0.61, eps 0.85",4.434911851752416
+R5 Integration,LCOE,Rs/kWh,8.931552754152355,"IC+Regen, PR 14.8, TIT 1450 C, x 0.00, eps 0.85",11.339165840549704
+R5 Integration,Direct CO2,kg/kWh,0.3206568493129577,"IC+Regen, PR 22.1, TIT 1438 C, x 0.65, eps 0.79",0.4393095626783402
