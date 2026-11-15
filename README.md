@@ -1,7 +1,7 @@
 # Hydrogen-Blended Gas Turbine for Decarbonised Grid Power
 ### ME 306 Course Project, Problem 16: team repository
 
-**Team:** 24B2246, 24B2206, 24B2115, 24B2179, 24B2261 · **Repository:** https://github.com/varad-padhye/ME306
+**Team:** Vedika Kone (R1, 24B2115), Tanvi Gattani (R2, 24B2246), Shravanee Kulkarni (R3, 24B2206), Dhanvin A. S. (R4, 24B2261), Varad Padhye (R5, 24B2179) · **Repository:** https://github.com/varad-padhye/ME306
 
 This is the design and multi-objective optimisation of a **100 MW Brayton-cycle gas-turbine plant burning hydrogen–natural-gas blends**. Five team members each owned one subsystem, worked at three levels (thermodynamic design, exergy, cost), and the subsystems were combined into one validated cycle model. That model was optimised with **NSGA-II** over **5 objectives** and **6 constraints**, and **one final configuration** was selected using TOPSIS followed by a reasoned trade-off.
 
@@ -55,13 +55,13 @@ This is the design and multi-objective optimisation of a **100 MW Brayton-cycle 
 
 ## 2. Team and roles
 
-| Role | Subsystem | Core | Exergy | Cost |
-|---|---|---|---|---|
-| **R1** | Compressor & intercooling | pressure ratio, intercooler, compressor work | compressor + intercooler | intercooler vs work saved |
-| **R2** | Combustor & fuel blend | H₂ share, excess air, f/a, flame T, NOx index, flashback index | combustion | H₂ combustor premium, fuel, H₂ storage |
-| **R3** | Turbine & reheat | TIT, reheat, H₂O-rich gas, material & cooling limits | turbine + reheat combustor | hot section, cooling, reheat hardware |
-| **R4** | Regenerator & heat recovery | effectiveness, air preheat, T₄ > T₂ rule | regenerator + stack loss | exchanger area vs fuel saved |
-| **R5** | Integration & fuel supply | full cycle, flows for 100 MW | plant exergy balance, Ψ | LCOE incl. H₂ supply & storage, CO₂/kWh, NSGA-II, TOPSIS |
+| Role | Member | Subsystem | Core | Exergy | Cost |
+|---|---|---|---|---|---|
+| **R1** | Vedika Kone (24B2115) | Compressor & intercooling | pressure ratio, intercooler, compressor work | compressor + intercooler | intercooler vs work saved |
+| **R2** | Tanvi Gattani (24B2246) | Combustor & fuel blend | H₂ share, excess air, f/a, flame T, NOx index, flashback index | combustion | H₂ combustor premium, fuel, H₂ storage |
+| **R3** | Shravanee Kulkarni (24B2206) | Turbine & reheat | TIT, reheat, H₂O-rich gas, material & cooling limits | turbine + reheat combustor | hot section, cooling, reheat hardware |
+| **R4** | Dhanvin A. S. (24B2261) | Regenerator & heat recovery | effectiveness, air preheat, T₄ > T₂ rule | regenerator + stack loss | exchanger area vs fuel saved |
+| **R5** | Varad Padhye (24B2179) | Integration & fuel supply | full cycle, flows for 100 MW | plant exergy balance, Ψ | LCOE incl. H₂ supply & storage, CO₂/kWh, NSGA-II, TOPSIS |
 
 Each member's subsystem report is in [`team_reports/`](team_reports/).
 
